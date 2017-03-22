@@ -11,7 +11,7 @@ namespace BitFour.LojaVirtual.Web.Controllers
     public class CategoriaController : Controller    
     {
 
-        private ProdutosRepositorio _repositorio;     
+        private ProdutosRepositorio _repositorio;         
 
 
         // GET: Categoria
