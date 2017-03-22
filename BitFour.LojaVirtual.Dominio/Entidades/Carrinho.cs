@@ -32,6 +32,7 @@ namespace BitFour.LojaVirtual.Dominio.Entidades
               
 
 
+
         //remover 
         public void RemoverItem(Produto produto)
         {
