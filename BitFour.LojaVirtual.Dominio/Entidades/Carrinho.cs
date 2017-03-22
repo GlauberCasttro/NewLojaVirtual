@@ -29,7 +29,7 @@ namespace BitFour.LojaVirtual.Dominio.Entidades
                 item.Quantidade += quantidade;
             }
         }
-              
+                   
 
 
 
