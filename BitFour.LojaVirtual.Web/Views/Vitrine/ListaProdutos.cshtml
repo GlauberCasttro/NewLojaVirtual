@@ -1,0 +1,12 @@
+﻿@model BitFour.LojaVirtual.Web.Models.ProdutosViewModel
+@using BitFour.LojaVirtual.Web.HtmlHelpers
+
+@foreach (var p in Model.Produtos)
+{
+    //foi criada a classe detalhes para refatorar o codigo e tambem poder usar em outras partes do sistema 
+    @Html.Partial("ProdutoDetalhes",p)
+
+}
+<div class="btn-group pull-right">  
+    @Html.PageLinks(Model.Paginacao, x => Url.Action("ListaProdutos", new { pagina = x, categoria = @Model.CategoriaAtual }))
+</div>
