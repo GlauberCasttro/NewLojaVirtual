@@ -9,7 +9,7 @@ namespace BitFour.LojaVirtual.Dominio.Entidades
     public class Carrinho
     {
 
-        private readonly List<ItemCarrinho> _itemCarrinho = new List<ItemCarrinho>();
+        private readonly List<ItemCarrinho> _itemCarrinho = new List<ItemCarrinho>(); 
 
         //obrigatoriamente irá precisar dos seguintes metodos...
         //adcionar
